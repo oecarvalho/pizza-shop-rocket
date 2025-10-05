@@ -1,5 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Pizza } from "lucide-react";
+
+
 export function AuthLayout(){
     return(
         <div className="min-h-screen grid grid-cols-2">
@@ -10,7 +12,7 @@ export function AuthLayout(){
                 </div>
                 <footer className="text-sm">Painel do parceiro &copy; Pizza Shop - {new Date().getFullYear()}</footer>
             </div>
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col justify-center relative">
                 <Outlet/>
             </div>
         </div>

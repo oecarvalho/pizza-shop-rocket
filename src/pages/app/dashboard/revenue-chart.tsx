@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
-import {ResponsiveContainer, LineChart, XAxis, YAxis, CartesianGrid, Line, Tooltip} from 'recharts'
+import {ResponsiveContainer, LineChart, XAxis, YAxis, CartesianGrid, Line} from 'recharts'
 import colors from 'tailwindcss/colors'
 
 const data = [

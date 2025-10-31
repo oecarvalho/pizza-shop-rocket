@@ -8,7 +8,7 @@ import { OrderStatus } from "@/components/order-status";
 
 import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
-import { cache, useState } from "react";
+import { useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { cancelOrder } from "@/api/cancel-order";
 import type { GetOrdersResponse } from "@/api/get-orders";
